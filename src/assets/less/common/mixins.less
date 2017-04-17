@@ -1,0 +1,38 @@
+// 如果你想要创建一个混合集，但是却不想让它输出到你的样式中，你可以在混合集的名字后面加上一个括号。
+.i-mixin-style(@width:0, @height:0, @radius: 0) {
+    width: @width + px;
+    height: @height+ px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: @radius+ px;
+}
+.i-mixin-ico(@url, @width:0, @height:0, @size:contain) {
+    background: url(@url) no-repeat;
+    width: @width;
+    height: @height;
+    background-size: @size;
+    display: inline-block;
+}
+.i-back-ico(@url) {
+    background: url(@url) no-repeat;
+    background-size: contain;
+}
+.i-ico(@url) {
+    background-image: url(@url);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-overflow() {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.line-num-overflow(@num) {
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: @num !important;
+    -webkit-box-orient: vertical;
+}
