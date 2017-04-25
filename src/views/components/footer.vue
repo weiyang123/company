@@ -19,7 +19,7 @@
     </div>
     <div class="foot-bottom">
       <span>Copyright @ 2017 All Rights Reserved 江西永泰诚信包装纸厂</span>
-      <span>赣ICP备17004514号</span>
+      <span><a href="http://www.miitbeian.gov.cn/" target="_blank">赣ICP备17004514号</a></span>
     </div>
   </div>
 
@@ -75,6 +75,9 @@
     text-align: center;
     span{
       opacity: .4;
+      a{
+        color: #fff;
+      }
     }
   }
 </style>

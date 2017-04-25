@@ -92,7 +92,7 @@
 <template>
 	<div class="container">
 		<div class="index-img">
-			<p>专业生产各类金字条纹牛皮纸</p>
+			<p>专业生产各类精致条纹牛皮纸</p>
 		</div>
 		<div class="product-cotainer">
 			<div class="title">
